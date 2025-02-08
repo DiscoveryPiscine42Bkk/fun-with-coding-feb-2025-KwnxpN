@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dog {
+    background-image: url('/cell02/ex02/img/dog.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.cat {
+    background-image: url('/cell02/ex02/img/cat.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.black-section {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
